@@ -1,29 +1,19 @@
-# chuckfacts
+# Chuck Norris Facts
+I can't say much about this project - Chuck is listening.
 
-## Project setup
+But if you're looking for facts about Chuck Norris, you've come to the right repo.
+
+## Install Dependencies
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Start Dev Server
 ```
 yarn run serve
 ```
 
-### Compiles and minifies for production
+### Build For Production
 ```
 yarn run build
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
