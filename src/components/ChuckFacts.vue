@@ -13,7 +13,6 @@ export default {
       quote: "CLICK FOR A CHUCK FACT"
     };
   },
-  computed: {},
   methods: {
     async getQuote() {
       this.quote = "( getting fact . . . )";
