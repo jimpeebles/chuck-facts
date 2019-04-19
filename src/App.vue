@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ChuckFacts/>
+    <ChuckFacts />
   </div>
 </template>
 
@@ -14,3 +14,10 @@ export default {
   }
 };
 </script>
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+</style>

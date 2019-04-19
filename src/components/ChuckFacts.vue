@@ -42,7 +42,8 @@ h2 {
   text-align: center;
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+  overflow: hidden;
   background-image: url("~/karate.png");
   background-position: 0px 0px;
   background-repeat: repeat-x repeat-y;
