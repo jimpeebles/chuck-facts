@@ -5,6 +5,8 @@ But if you're looking for facts about Chuck Norris, you've come to the right rep
 
 [Check it out here.](https://elated-einstein-a50798.netlify.com/)
 
+Thanks to chucknorris.io
+
 ## Install Dependencies
 ```
 yarn install

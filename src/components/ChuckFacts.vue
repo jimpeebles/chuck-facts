@@ -50,17 +50,17 @@ h2 {
   animation: animatedBackground 40s linear infinite;
 }
 .quote {
+  display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   width: 90%;
-  margin: 0 auto;
+  overflow: hidden;
   cursor: pointer;
   &:hover {
     color: red;
   }
-  overflow-y: scroll;
 }
 
 @keyframes animatedBackground {
