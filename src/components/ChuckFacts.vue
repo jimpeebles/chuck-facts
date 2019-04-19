@@ -17,12 +17,9 @@ export default {
   methods: {
     async getQuote() {
       this.quote = "( getting fact . . . )";
-      let self = this;
-      fetch("https://api.chucknorris.io/jokes/random").then(function(response) {
-        response.json().then(function(res) {
-          self.quote = res.value;
-        });
-      });
+      const res = await fetch("https://api.chucknorris.io/jokes/random");
+      const resJson = await res.json();
+      this.quote = resJson.value;
     }
   }
 };
