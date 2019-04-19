@@ -32,8 +32,11 @@ export default {
 h2 {
   font-family: "Quicksand", Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 4em;
+  font-size: 2.5em;
   line-height: 120%;
+  @media screen and (min-width: 600px) {
+    font-size: 4em;
+  }
 }
 .container {
   text-align: center;
