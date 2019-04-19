@@ -15,21 +15,14 @@ export default {
   },
   computed: {},
   methods: {
-    getQuote() {
+    async getQuote() {
       this.quote = "( getting fact . . . )";
       let self = this;
-      fetch("https://api.chucknorris.io/jokes/random")
-        .then(function(response) {
-          if (response.status !== 200) {
-            return;
-          }
-
-          // Examine the text in the response
-          response.json().then(function(res) {
-            self.quote = res.value;
-          });
-        })
-        .catch(function(err) {});
+      fetch("https://api.chucknorris.io/jokes/random").then(function(response) {
+        response.json().then(function(res) {
+          self.quote = res.value;
+        });
+      });
     }
   }
 };
